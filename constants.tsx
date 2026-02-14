@@ -88,7 +88,7 @@ export const PRODUCTS: Product[] = [
     name: 'Kinder Bueno',
     description: 'Massa tradicional com gotas de chocolate nobre branco e ao leite, recheado com nosso creme kinder bueno e finalizado com kinder no topo',
     price: 18.00,
-    image: 'https://i.imgur.com/TcmTGaz.jpeg',
+    image: '/assets/kinder-bueno-cookie.jpeg',
     category: 'recheado',
     type: 'cookie',
     weight: '120g'
