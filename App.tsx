@@ -55,14 +55,14 @@ const App: React.FC = () => {
         <section id="products" className="pt-20 sm:pt-24 lg:pt-28 pb-16 sm:pb-20 lg:pb-24 bg-[#e9dac7] min-h-[60vh]">
           <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
             <div className="flex flex-col gap-6 sm:gap-8 mb-8 sm:mb-12">
-              <div className="space-y-3 sm:space-y-4">
+              <div className="space-y-3 sm:space-y-4 text-center">
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#4A2C21] capitalize">
                   Nossos {activeMainTab === 'cookie' ? 'Cookies' : 'Brownies'}
                 </h2>
-                <div className="h-1 w-16 sm:w-20 bg-[#B16E41] rounded-full"></div>
+                <div className="h-1 w-16 sm:w-20 bg-[#B16E41] rounded-full mx-auto"></div>
               </div>
               
-              <div className="flex bg-[#4A2C21]/10 p-0.5 sm:p-1 rounded-xl sm:rounded-2xl shadow-inner border border-[#4A2C21]/5">
+              <div className="flex justify-center bg-[#4A2C21]/10 p-0.5 sm:p-1 rounded-xl sm:rounded-2xl shadow-inner border border-[#4A2C21]/5">
                 <button 
                   onClick={() => setSubFilter('all')}
                   className={`px-3 sm:px-6 py-2 sm:py-2.5 rounded-lg sm:rounded-xl text-xs sm:text-sm font-bold transition-all ${subFilter === 'all' ? 'bg-[#4A2C21] shadow-lg text-white' : 'text-[#4A2C21] hover:bg-white/20'}`}

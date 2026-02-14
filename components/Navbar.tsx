@@ -36,7 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({ onCartToggle, cartCount, activeTab, onT
             >
               {/* Cookie icon scaled and centered with the 'D' */}
               <img 
-                src="/assets/cookie-icon-new.png" 
+                src="/assets/cookie-icon.png" 
                 alt="Cookie Icon" 
                 className="h-12 w-12 sm:h-16 sm:w-16 lg:h-24 lg:w-24 object-contain"
               />
@@ -45,7 +45,7 @@ const Navbar: React.FC<NavbarProps> = ({ onCartToggle, cartCount, activeTab, onT
               </span>
             </div>
 
-            {/* Operating Hours Text - Right of the brand */}
+            {/* Operating Hours Text - Right of brand */}
             <div className="hidden md:flex items-center border-l border-[#3D261E]/10 pl-2 sm:pl-4 py-1">
               <p className="text-[10px] sm:text-xs font-semibold text-[#3D261E]/60 leading-tight">
                 Horário:<br />
@@ -63,7 +63,7 @@ const Navbar: React.FC<NavbarProps> = ({ onCartToggle, cartCount, activeTab, onT
               >
                 <span className="hidden sm:inline">Cookies</span>
                 <span className="sm:hidden">
-                  <img src="/assets/cookie-icon-new.png" alt="Cookie" className="w-4 h-4 object-contain" />
+                  <img src="/assets/cookie-icon.png" alt="Cookie" className="w-4 h-4 object-contain" />
                 </span>
               </button>
               <button 
