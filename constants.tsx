@@ -117,7 +117,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'b-nut',
     name: 'Brownie Nutella',
-    description: 'Brownie tradicional com recheio de nutella!',
+description: 'Brownie tradicional com recheio de nutella!',
     price: 12.00,
     image: 'https://i.pinimg.com/736x/e1/b4/0d/e1b40da8d96c12359ae8ce6768d1b34c.jpg',
     category: 'recheado',
